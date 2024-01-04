@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "DM MONO";
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+html {
+}
+body {
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    
+}
+#wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 100%;
+    font-size: 100%;
+    padding: 2%;
+    position: fixed;
+}
+#sidebar-selections-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#sidebar-selections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    gap: 5%;
+}
+.sidebar-selection {
+
+}
+#main-content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /*gap: 40px;*/
+    top: 0;
+    right: 0;
+}
+#hero {
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    width: 100%;
+    /*height: clamp(600px, 900px, 100px);*/
+    height: 90vh;
+    background-color: #878787;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.section-header {
+    width: 100%;
+    height: 10%;
+    background-color: #d7fae2;
+    display: flex;
+    justify-content: flex-start;
+}
+.section-header h2 {
+    background-color: antiquewhite;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+    border-radius: 0px 15px 15px 0px;
+}
+.subsection {
+    overflow: hidden;
+    padding: 7%;
+    width: 50%;
+    max-height: 400px;
+}
+.subsection-header {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+.subsection-inner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    gap: 10%;
+}
+#programming {
+}
+#music-production {
+}
+#education {
+}
+#gfx {
+}
+#about-me {
+}
+#about-me-summary {
+    width: 100%;
+    background-color: #e8d7fa;
+    font-size: 80%;
+}
+#about-me-education {
+    background-color: rgb(211, 122, 122);
+    width: 50%;
+}
+#umgc {
+}
+#mc {
+}
+.school {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.school-name {
+}
+.school-degree {
+}
+#about-me-current-projects {
+    width: 50%;
+    background-color: green;
+}
+#about-me-links {
+    height: 90%;
+    width: 100%;
+    background-color: deepskyblue;
+}
+@font-face {
+    font-family: "Bariol";
+    src: url('fonts/Bariol_Serif_Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "Wotfard";
+    src: url('fonts/Wotfard-Regular.otf') format('opentype');
+  }
+  @font-face{
+  font-family: "Inter";
+  src: url('fonts/Inter-VariableFont_slnt\,wght.ttf');
+  }
+  @font-face{
+    font-family: "Sono";
+    src: url('fonts/Sono-VariableFont_MONO\,wght.ttf')
+  }
+  @font-face{
+    font-family: "DM Mono";
+    src: url('fonts/DMMono-Regular.ttf')
+  }
+  @font-face{
+    font-family: "M PLUS";
+    src: url('fonts/MPLUSCodeLatin-VariableFont_wdth\,wght.ttf')
+  }
