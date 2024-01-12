@@ -36,11 +36,11 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: #c4c4c4;
     width: 20%;
     height: 100%;
     font-size: 100%;
-    padding: 2%;
     position: fixed;
 }
 #sidebar-selections-container {
@@ -48,8 +48,10 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     height: 100%;
     width: 100%;
+    padding: 20%;
 }
 #sidebar-selections {
     display: flex;
@@ -58,7 +60,7 @@ li {
     align-items: flex-start;
     height: 100%;
     width: 100%;
-    gap: 5%;
+    gap: 10%;
 }
 .sidebar-selection {
 
@@ -88,14 +90,22 @@ li {
     height: 90vh;
     background-color: #878787;
     display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.section-body {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-end;
+    padding: 5%;
+    font-size: 100%;
 }
 .section-header {
     width: 100%;
     height: 10%;
-    background-color: #d7fae2;
+    background-color: #d7fae25e;
     display: flex;
     justify-content: flex-start;
 }
@@ -110,23 +120,18 @@ li {
     border-radius: 0px 15px 15px 0px;
 }
 .subsection {
-    overflow: hidden;
-    padding: 7%;
-    width: 50%;
-    max-height: 400px;
-}
-.subsection-header {
-    font-size: 1.5rem;
-    margin-bottom: 5%;
-}
-.subsection-inner-container {
-    width: 100%;
-    height: 100%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-bottom: 10%;
-    gap: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5%;
+}
+.subsection-header {
+
+}
+.subsection-inner-container {
+
 }
 #programming {
 }
@@ -139,37 +144,32 @@ li {
 #about-me {
 }
 #about-me-summary {
-    width: 100%;
-    background-color: #e8d7fa;
-    font-size: 80%;
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%
 }
 #about-me-education {
-    background-color: rgb(211, 122, 122);
-    width: 50%;
+width: 50%;
+background: chocolate;
 }
 #umgc {
 }
 #mc {
 }
 .school {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
+
 }
 .school-name {
 }
 .school-degree {
 }
 #about-me-current-projects {
-    width: 50%;
-    background-color: green;
+    width: 30%;
+
+    background: oldlace;
 }
 #about-me-links {
-    height: 90%;
-    width: 100%;
-    background-color: deepskyblue;
+
 }
 @font-face {
     font-family: "Bariol";
